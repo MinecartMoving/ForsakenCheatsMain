@@ -1,4 +1,4 @@
-workspace.Maps.Ingame.ChildAdded:Connect(function(Child)
+workspace.Map.Ingame.ChildAdded:Connect(function(Child)
 
   if Child.Name == "GroundBulbModel" then
     local Highlight = Instance.new("Highlight")
