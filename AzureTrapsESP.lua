@@ -2,8 +2,8 @@ workspace.Map.Ingame.ChildAdded:Connect(function(Child)
 
   if Child.Name == "GroundBulbModel" then
     local Highlight = Instance.new("Highlight")
-    Highlight.TintColor = Color3.new(0.75, 0, 0.75)
-    Highlight.OutlineColor = Color3.new(0.5, 0, 0.75)
+    Highlight.FillColor = Color3.fromRGB(58, 32, 80)
+    Highlight.OutlineColor = Color3.fromRGB(187, 98, 255)
     Highlight.Parent = Child
   end
 
